@@ -17,7 +17,6 @@ namespace LogApp
         private static Dictionary<string, string> id = new Dictionary<string, string>(); 
         public static List< Tuple<string, string, string, string, string, string, string> > parser(List<string> messages)
         {
-#pragma warning disable CS0168 // Переменная объявлена, но не используется
             UInt16 pos, last_pos;
             string ip_addr;
             string date;
